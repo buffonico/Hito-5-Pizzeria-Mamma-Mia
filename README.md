@@ -1,18 +1,17 @@
 # 🍕 Pizzería Mamma Mía! - Hito 5 (React Router I)
 
-Proyecto Estatico, creado con React + Vite, para una pizzeria, Hito 4 actualizado
+Proyecto Estatico, creado con React + Vite, para una pizzeria, Hito 5 actualizado
 
 ## Acceso
 
-    https://github.com/buffonico/Hito-4-Pizzeria-Mamma-Mia
-    https://buffonico.github.io/Hito-4-Pizzeria-Mamma-Mia/
+    https://github.com/buffonico/Hito-5-Pizzeria-Mamma-Mia
+    https://buffonico.github.io/Hito-5-Pizzeria-Mamma-Mia/
 
 
 ## Descripción
 
-    En esta oportunidad a nuestra pagina de pizzeria, se le agrego el detalle del pedido, que nos permite ver lo pedido al momento de llenar el carrito con su total.
-
-    
+    En este Hito, se agregan las pages, y se separan en carpetas, teniendoa acceso a login, registro, perfil, carrito y home, validando
+    lo aprendido en las clases y tutorias.   
   
 
 ## Tecnologías Utilizadas
@@ -21,20 +20,26 @@ Proyecto Estatico, creado con React + Vite, para una pizzeria, Hito 4 actualizad
 - CSS3
 - JS
 - React + Vite
+- React + Router1
 
 ## Estructura del Proyecto
 
 ```
 ├─ public
+│   ├── img
+│   │       ├── p001.jpeg
+│   │       ├── p002.jpeg
+│   │       ├── p003.jpeg
+│   │       ├── p004.jpeg
+│   │       ├── p005.jpeg
+│   │       └── p006.jpeg
 │   ├── favicon.svg
 │   └── icons.svg
 ├─ src
 │   ├── assets
 │   │    │  └── img
-│   │    │      ├── spanola.png
-│   │    │      ├── hawaiana.jpg
-│   │    │      │    napolitana.jpg
-│   │    │      └── pepperoni.jpg
+│   │    │      ├── Header
+│   │    │      └── p001.jpeg
 │   │    ├── hero.png
 │   │    ├── react.svg
 │   │    └── vite.svg
@@ -42,14 +47,18 @@ Proyecto Estatico, creado con React + Vite, para una pizzeria, Hito 4 actualizad
 │   │       ├── Cardpizza.jsx
 │   │       ├── Footer.jsx
 │   │       ├── Header.jsx
-│   │       ├── Home.jsx
-│   │       ├── Navbar.jsx
-│   │       ├── Login.jsx
-│   │       └── Register.jsx
-│   ├──Js
+│   │       └── Navbar.jsx
+│   │       
+│   ├── data
 │   │     └── pizzas.js
-│   ├──utils
-│   │     └── formatPrice.js
+│   ├── pages
+│   │       ├── Cart.jsx
+│   │       ├── Home.jsx
+│   │       ├── Login.jsx
+│   │       ├── NotFound.jsx
+│   │       ├── Pizza.jsx
+│   │       ├── Profile.jsx
+│   │       └── Register.jsx
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
